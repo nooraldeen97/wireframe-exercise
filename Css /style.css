@@ -51,16 +51,46 @@ nav ul li a {
     padding: 15px;
 
 }
-
+ 
 #passage{
-    padding-left: 20px;
-    background-color:white;
-    width: 450px;
-    height: 400px;
+    background-color: white;
+    height: 350px;
+    width:460px;
     overflow: scroll;
+    position: relative;
+    left: 20%;
 }
+
 
 
 #textimg{
     float: left;
+    position: relative;
+    left:18%;
+    margin-bottom: 30px;
 }    
+
+#supfooter{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+#supfooter div h3 {
+    font-weight: 600;
+}
+
+#supfooter div h4 {
+    background-color: gray;
+    border-radius: 10px;
+    display: inline;
+    padding: 5px 5px 5px 5px;
+    border: black 1px solid;
+    position:absolute;
+    right: 40%;
+}
+
+footer{
+    background-color: gray;
+    height: 100px;
+}
